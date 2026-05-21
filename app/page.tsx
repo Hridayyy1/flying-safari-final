@@ -13,44 +13,83 @@ import { ItinerariesSection } from "@/components/sections/ItinerariesSection";
 
 export default function HomePage() {
   return (
-    <main className="relative">
-      
-      <section id="home">
+    <main className="relative overflow-x-hidden">
+
+      {/* HERO */}
+      <section
+        id="home"
+        className="overflow-x-hidden"
+      >
         <HeroSection />
       </section>
 
-      <section id="quickaction">
+      {/* QUICK ACTION */}
+      <section
+        id="quickaction"
+        className="overflow-x-hidden"
+      >
         <QuickAction />
       </section>
 
-      {/* Spacer matching original layout offset for overlapping quick-action */}
-      <div className="bg-[#fdfbf7] pt-[420px] md:pt-[280px]" aria-hidden />
+      {/* SPACER */}
+      <div
+        className="overflow-x-hidden bg-[#fdfbf7] pt-[420px] md:pt-[280px]"
+        aria-hidden
+      />
 
-      <section id="destinations">
+      {/* DESTINATIONS */}
+      <section
+        id="destinations"
+        className="overflow-x-hidden"
+      >
         <DestinationSection />
       </section>
 
-      <section id="about">
+      {/* ABOUT */}
+      <section
+        id="about"
+        className="overflow-x-hidden"
+      >
         <AboutSection />
       </section>
 
-      <section id="itineraries">
+      {/* ITINERARIES */}
+      <section
+        id="itineraries"
+        className="overflow-x-hidden"
+      >
         <ItinerariesSection />
       </section>
 
-      <section id="features">
+      {/* FEATURES */}
+      <section
+        id="features"
+        className="overflow-x-hidden"
+      >
         <FeaturesSection />
       </section>
 
-      <section id="gallery">
+      {/* GALLERY */}
+      <section
+        id="gallery"
+        className="overflow-x-hidden"
+      >
         <GallerySection />
       </section>
 
-      <section id="blogs">
+      {/* BLOGS */}
+      <section
+        id="blogs"
+        className="overflow-x-hidden"
+      >
         <BlogsSection />
       </section>
 
-      <section id="contact">
+      {/* CTA */}
+      <section
+        id="contact"
+        className="overflow-x-hidden"
+      >
         <CtaSection />
       </section>
 
